@@ -11,3 +11,4 @@ data1[,3] <- c("Condition 2",0.00000007,
 data1[,4] <- c("Condition 3",0.00000007,
                0.000000017,
                0.000000014)
+data1 <- as.data.frame(data1)
