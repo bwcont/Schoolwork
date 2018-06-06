@@ -142,6 +142,29 @@ legend("topleft", legend=c('UnAged', 'Aged'), fill = c("indianred2","olivedrab4"
 
 
 
+###########Beta-galactosidase
+
+plot(0,type='n', #make empty plot 
+     xlim=c(0.5,2.5) # x limits
+     , ylim=c(0,0.0000045) # y limits 
+     , xlab= ' ', # name x azis
+     ylab = 'Cell Stress (OD/[CFU/mL])', # name y axis
+     main = ' ', # main title (on middle of plot)
+     pch=19, yaxt='n', axes=F, # removed axes
+     cex.lab=1.05) # make empty plot to fill in
+
+
+
+arrows(c(1,2), c(0.0000000141-0.0000000165, 0.0000019133-0.0000026682),    
+       c(1,2), c(0.0000000141+0.0000000165, 0.0000019133+0.0000026682),
+       angle = 90, code = 3, length = 0, lty = 1, lwd = 4, # jelly bean width
+       col = c('blue','red'))
+
+points(x = c(1,2), y = c(0.0000000141, 0.0000019133), cex = 1.5, pch = 16 )
+axis(1, c(1,2), c('LB Only','LB + X'), cex=2, pch=16, col = "black")
+axis(2)
+
+box()
 
 
 
