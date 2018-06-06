@@ -55,12 +55,12 @@ box()
 
 points(Aged.Cells ~ Day, col = "olivedrab4", lwd = 1, cex = 1.2, lty = 1, pch = 16)
 
-lines(Aged.Cells ~ Day, col = "olivedrab4", lwd = 1, cex = 1.2, lty = 1, pch = 16)
+lines(Aged.Cells ~ Day, col = "olivedrab4", lwd = 2, cex = 1.2, lty = 1, pch = 16)
 
 
 points(Young.Cells ~ Day, col = "indianred2", lwd = 1, cex = 1.2, lty = 1, pch = 16) 
 
-lines(Young.Cells ~ Day, col = "indianred2", lwd = 1, cex = 1.2, lty = 1, pch = 16)
+lines(Young.Cells ~ Day, col = "indianred2", lwd = 2, cex = 1.2, lty = 1, pch = 16)
 
 legend("topleft", legend=c('UnAged', 'Aged'), fill = c("indianred2","olivedrab4"), cex=0.9)
 
@@ -92,12 +92,12 @@ box()
 
 points(Aged.Cells2 ~ Day, col = "olivedrab4", lwd = 1, cex = 1.2, lty = 1, pch = 16)
 
-lines(Aged.Cells2 ~ Day, col = "olivedrab4", lwd = 1, cex = 1.2, lty = 1, pch = 16)
+lines(Aged.Cells2 ~ Day, col = "olivedrab4", lwd = 2, cex = 1.2, lty = 1, pch = 16)
 
 
 points(Young.Cells2 ~ Day, col = "indianred2", lwd = 1, cex = 1.2, lty = 1, pch = 16) 
 
-lines(Young.Cells2 ~ Day, col = "indianred2", lwd = 1, cex = 1.2, lty = 1, pch = 16)
+lines(Young.Cells2 ~ Day, col = "indianred2", lwd = 2, cex = 1.2, lty = 1, pch = 16)
 
 legend("topleft", legend=c('UnAged', 'Aged'), fill = c("indianred2","olivedrab4"), cex=0.9)
 
@@ -130,12 +130,12 @@ box()
 
 points(Aged.Cells3 ~ Day, col = "olivedrab4", lwd = 1, cex = 1.2, lty = 1, pch = 16)
 
-lines(Aged.Cells3 ~ Day, col = "olivedrab4", lwd = 1, cex = 1.2, lty = 1, pch = 16)
+lines(Aged.Cells3 ~ Day, col = "olivedrab4", lwd = 2, cex = 1.2, lty = 1, pch = 16)
 
 
 points(Young.Cells3 ~ Day, col = "indianred2", lwd = 1, cex = 1.2, lty = 1, pch = 16) 
 
-lines(Young.Cells3 ~ Day, col = "indianred2", lwd = 1, cex = 1.2, lty = 1, pch = 16)
+lines(Young.Cells3 ~ Day, col = "indianred2", lwd = 2, cex = 1.2, lty = 1, pch = 16)
 
 legend("topleft", legend=c('UnAged', 'Aged'), fill = c("indianred2","olivedrab4"), cex=0.9)
 
